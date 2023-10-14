@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@200;400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap");
+
+:root {
+  --color-text-1: #2a2b2a;
+  --color-text-2: #474847;
+  --color-text-3: #5b5d5b;
+
+  --color-dark-text-1: #efefef;
+  --color-dark-text-2: #e0e0e0;
+  --color-dark-text-3: #cccccc;
+
+  --color-bg-1: #efefef;
+  --color-bg-2: #e0e0e0;
+  --color-bg-3: #cccccc;
+
+  --color-dark-bg-1: #2a2b2a;
+  --color-dark-bg-2: #474847;
+  --color-dark-bg-3: #5b5d5b;
+
+  --color-brand: #cd3c3c;
+  --color-brand-light: #de7d7d;
+
+  --color-accent: #eeba0b;
+  --color-accent-light: #f8d563;
+
+  --color-secondary: #3454d1;
+  --color-secondary-light: #7a8fe1;
+
+  --gap-section: 48px;
+  --gap-block: 24px;
+  --b-rad: 12px;
+
+  @media screen and (max-width: 767px) {
+    --gap-section: 32px;
+    --gap-block: 16px;
+    --b-rad: 6px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Commissioner", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--color-text-1, #2a2b2a);
+}
+
+h1 {
+  font-size: 2rem;
+  @media screen and (max-width: 767px) {
+    font-size: 1.625rem;
+  }
+}
+h2 {
+  font-size: 1.75rem;
+  @media screen and (max-width: 767px) {
+    font-size: 1.5rem;
+  }
+}
+h3 {
+  font-size: 1.5rem;
+  @media screen and (max-width: 767px) {
+    font-size: 1.25rem;
+  }
+}
+h4 {
+  font-size: 1.25rem;
+  @media screen and (max-width: 767px) {
+    font-size: 1.125rem;
+  }
+}
+h5 {
+  font-size: 1rem;
+  @media screen and (max-width: 767px) {
+    font-size: 0.875rem;
+  }
+}
+h6 {
+  font-size: 0.875rem;
+  @media screen and (max-width: 767px) {
+    font-size: 0.75rem;
+  }
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--color-text-1, #2a2b2a);
+
+  font-size: 1rem;
+  @media screen and (max-width: 767px) {
+    font-size: 0.875rem;
+  }
+}
+
+p.caps {
+  text-transform: uppercase;
+
+  font-size: 1.125rem;
+  @media screen and (max-width: 767px) {
+    font-size: 0.875rem;
+  }
+}
+
+p.caption {
+  font-size: 0.875rem;
+  @media screen and (max-width: 767px) {
+    font-size: 0.75rem;
+  }
+}
+p.caption-caps {
+  text-transform: uppercase;
+
+  font-size: 0.875rem;
+  @media screen and (max-width: 767px) {
+    font-size: 0.75rem;
+  }
+}
